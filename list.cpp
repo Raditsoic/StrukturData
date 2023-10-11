@@ -74,7 +74,10 @@ int main()
     forLovers.addSong("Words of Love", "Lamps");
     forLovers.addSong("Behind the Moon Shadow", "Lamps");
 
-    forLovers.insertCoins(5);
+    int coins;
+    cout << "How many times do you want to loop 'For Lovers' by 'Lamps'? (Insert Coins) " << endl;
+    cin >> coins;
+    forLovers.insertCoins(coins);
     forLovers.play();
 
 
